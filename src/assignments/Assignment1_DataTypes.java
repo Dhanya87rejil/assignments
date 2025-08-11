@@ -65,7 +65,7 @@ public class Assignment1_DataTypes {
         //20. Distance between two cities: 200.5
         float distance = 200.5f;
         System.out.println(distance);
-        
+      
 	}
 	
 
