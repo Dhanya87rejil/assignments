@@ -193,8 +193,8 @@ data.put("Product details", prodlist);
 
 // Print the data from Product details > Supplier Name > Office Depot 
 
-
-System.out.println(prod2map.get("Supplier"));
+System.out.println(data.get("Product details"));
+System.out.println(data.get("Product details").get(1).get("Supplier"));
 	}
 
 }
