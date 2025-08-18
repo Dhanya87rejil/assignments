@@ -10,16 +10,14 @@ public class Assignment7_ConditionalStatements {
         boolean isEmployed = true;
         float debtToIncomeRatio = 35.0f;
         
-		if (creditScore>750) 
-			{
-			System.out.println("Loan is automatically approved for customer: "+customerName +" based on creditscore");
-			}
-			else if (creditScore<650)
+        if(creditScore<650)
 			{
 				System.out.println("Loan is denied for customer: " +customerName +" as the creditscore doesnt match the eligibilty criteria");	
 				
 			}
-			else if ((creditScore >=650) || (creditScore <=750 )){
+        
+			
+			else if ((creditScore >= 650) && (creditScore <=750 )){
 				if (income >= 50000) {
 					if(! isEmployed ) {
 						System.out.println("Loan is denied for customer: "+customerName +" based on Employment Status");
@@ -40,6 +38,11 @@ public class Assignment7_ConditionalStatements {
 				}
 				
 		}
+			else
+		{
+		System.out.println("Loan is automatically approved for customer: "+customerName +" based on creditscore");
+		}
+	
 	}
 
 }
