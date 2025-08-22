@@ -61,6 +61,7 @@ System.out.println("Total number of Debit transactions: " +debitCount);
 System.out.println("Total amount of Credit transactions: " +totalCreditAmt);
 System.out.println("Total amount of Debit transactions: " +totalDebitAmt);	
 System.out.println("Total amount remaining at the end in Bank Account: " +acctBal);
+System.out.println("Suspicious txn amt:"+suspCount);
 
 	}
 
