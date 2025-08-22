@@ -39,6 +39,7 @@ public class Assignment9_ConditionalStmts_Loops {
  
  Map <String,Double> output = new HashMap <String,Double>();
  
+ // Calculate hike for each employee using common method and print it
  for(String emp : empnames)
  {
 	 Double[] data = empdata.get(emp);
@@ -52,7 +53,7 @@ public class Assignment9_ConditionalStmts_Loops {
 
 
 	}
-
+//common method to calculate hike and hike percentage
 	 public static double hikecalc( double baseSalary,double experience, double rating)
 	 {
 		 double variablePayPercent;
