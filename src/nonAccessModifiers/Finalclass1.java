@@ -3,7 +3,8 @@ package nonAccessModifiers;
 public   class Finalclass1 {
 	 String empname = "Dhanya";
 	 
-	 Finalclass1(int a)
+	 //constructor - final is not allowed
+	  Finalclass1(int a)
 	 {
 		
 		 System.out.println(a);

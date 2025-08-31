@@ -2,7 +2,7 @@ package nonAccessModifiers;
 
 public class FinalClass2 extends  Finalclass1 {
 
-	FinalClass2(int a) {
+	 FinalClass2(int a) {
 		super(a);
 		// TODO Auto-generated constructor stub
 	}
