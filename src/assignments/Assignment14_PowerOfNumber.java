@@ -30,7 +30,7 @@ public class Assignment14_PowerOfNumber {
 		//base value input
 		double x = 2.70000;
 		//exponential value input
-		int n=0;
+		int n=-2;
 		
 	System.out.println("The output is:" +obj.powercalc(x, n));
 	
