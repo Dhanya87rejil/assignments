@@ -12,7 +12,7 @@ public class Assignment15_StringOperations {
 		// 2. Print the sentence words in reverse order.
 		String reverseScentence = "";
 		for (int i = words.length - 1; i >= 0; i--) {
-			reverseScentence = reverseScentence + words[i] + " ";
+			reverseScentence = reverseScentence + words[i] + " ";	
 		}
 		System.out.println("The reverse of the scentence is: " + reverseScentence);
 
@@ -30,8 +30,8 @@ public class Assignment15_StringOperations {
 
 /*
  * 3.Another method of converting first character in each word to uppercase and
- * print String finalWord[] = new String[words.length]; for(int i
- * =0;i<=words.length-1;i++) { String word= words[i]; String firstLetter =
+ * print String finalWord[] = new String[words.length]; 
+ * for(int i =0;i<=words.length-1;i++) { String word= words[i]; String firstLetter =
  * word.substring(0, 1).toUpperCase(); String remainingLetter=
  * word.substring(1); finalWord[i]=firstLetter+remainingLetter;
  * System.out.print(finalWord[i]+ " "); }
